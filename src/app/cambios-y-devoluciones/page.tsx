@@ -1,0 +1,12 @@
+import LegalDocument from '../../components/LegalDocument';
+
+export default function ReturnsPage() {
+  return <LegalDocument eyebrow="Garantía y soporte" title="Cambios, devoluciones y garantía" sections={[
+    { title: '1. Política comercial', paragraphs: ['FEBEFLO no ofrece cambios ni devoluciones por gusto, talla, color, arrepentimiento o cambio de opinión, salvo que se anuncie expresamente una condición especial para una campaña. Esta condición comercial no limita derechos irrenunciables del consumidor.'] },
+    { title: '2. Exclusión del retracto voluntario', paragraphs: ['En compras celebradas por medios electrónicos, FEBEFLO dispone expresamente que no ofrece el derecho de retracto voluntario previsto en el artículo 3 bis letra b) de la Ley N° 19.496. Esta exclusión se informa antes de la compra y no afecta la garantía legal por fallas o defectos.'] },
+    { title: '3. Garantía legal por falla o defecto', paragraphs: ['Si el producto presenta una falla o defecto que haga procedente la garantía legal, el consumidor conserva los derechos de los artículos 20 y 21 de la Ley N° 19.496. SERNAC informa que dentro de los primeros seis meses desde la entrega podrá elegir entre reparación gratuita, cambio del producto o devolución del dinero, según corresponda.', 'La garantía debe solicitarse frente a FEBEFLO, acompañando antecedentes razonables de la compra y una descripción de la falla. No se puede exigir la caja original como condición adicional cuando la ley no lo permita.'] },
+    { title: '4. Exclusiones', paragraphs: ['No se considerarán fallas cubiertas los daños derivados de uso indebido, accidentes, desgaste normal, modificaciones, lavado o cuidado contrario a las instrucciones, cuando ello sea imputable al consumidor. La procedencia se evaluará conforme a la ley y a los antecedentes del caso.'] },
+    { title: '5. Cómo solicitar asistencia', paragraphs: ['El consumidor deberá escribir a agctalans@febeflo.com o llamar al +56 9 9123 6666 indicando número de pedido, nombre, producto, fecha de compra, descripción de la falla y fotografías cuando sean útiles. La recepción física de productos con fallas se coordinará en Edison 5042, Quinta Normal, Región Metropolitana. FEBEFLO informará el procedimiento de revisión y la solución que corresponda.'] },
+    { title: '6. Revisión legal', paragraphs: ['Este texto debe ser revisado por el abogado responsable para confirmar el procedimiento logístico, la distribución de costos y los plazos operativos aplicables a cada alternativa de garantía legal.'] },
+  ]} />;
+}
